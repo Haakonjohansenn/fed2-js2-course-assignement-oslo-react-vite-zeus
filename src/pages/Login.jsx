@@ -41,6 +41,8 @@ export default function LoginPage() {
       } else {
         setError("Invalid credentials. Please check your email and password.");
       }
+
+      console.log(localStorage);
     } catch (error) {
       setError("An error occurred. Please try again later.");
       console.error("Login error: ", error);
