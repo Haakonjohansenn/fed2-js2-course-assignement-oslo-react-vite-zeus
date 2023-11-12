@@ -21,5 +21,3 @@ describe("Logout Test", () => {
     //cy.get('.text-lg').contains('Logout').should('not.exist'); (will return error)
   });
 });
-
-//test
